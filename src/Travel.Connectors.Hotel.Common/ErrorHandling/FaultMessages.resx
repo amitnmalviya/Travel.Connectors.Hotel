@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InvalidSessionId" xml:space="preserve">
+    <value>Invalid sessionId provided in the request. </value>
+  </data>
+  <data name="InvalidAccountId" xml:space="preserve">
+    <value>Invalid tenantId provided in the header.</value>
+  </data>
+  <data name="InvalidCurrency" xml:space="preserve">
+    <value>Invalid currency provided in the request.</value>
+  </data>
+  <data name="InvalidPosId" xml:space="preserve">
+    <value>Invalid posId provided in the request. </value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>Invalid request. Verify the request format and then try again.</value>
+  </data>
+  <data name="RequestNotFound" xml:space="preserve">
+    <value>No request found. You must provide a valid request.</value>
+  </data>
+  <data name="MissingSessionId" xml:space="preserve">
+    <value>The sessionId field is required in the request.</value>
+  </data>
+  <data name="MissingSupplierDetails" xml:space="preserve">
+    <value>The supplier details are required in the request. </value>
+  </data>
+  <data name="MissingSupplierId" xml:space="preserve">
+    <value>The supplierId field is required in the request.</value>
+  </data>
+  <data name="MissingSupplierName" xml:space="preserve">
+    <value>The supplierName field is required in the request.</value>
+  </data>
+  <data name="MissingSupplierConfigurations" xml:space="preserve">
+    <value>Unable to find the supplier configuration. </value>
+  </data>
+  <data name="MissingSupplierConfiguration" xml:space="preserve">
+    <value>The following supplier configuration details are required in the request: {0}.</value>
+  </data>
+  <data name="InvalidCheckInDate" xml:space="preserve">
+    <value>The check-in date can only be up to a day prior to the current date. </value>
+  </data>
+  <data name="ConnectorMetadataNotFound" xml:space="preserve">
+    <value>Connector metadata not found for the following suppliers: {0}.</value>
+  </data>
+  <data name="InvalidVersion" xml:space="preserve">
+    <value>Invalid version provided in the supplier request.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Invalid credentials provided in the supplier request.</value>
+  </data>
+  <data name="InvalidCircularRegion" xml:space="preserve">
+    <value>The latitude and the longitude of the center are required in the request. </value>
+  </data>
+  <data name="ValidationFailure" xml:space="preserve">
+    <value>The following validation errors occurred: </value>
+  </data>
+  <data name="InvalidGeocodes" xml:space="preserve">
+    <value>Invalid latitude or longitude values. The latitude value must be between -90 to +90 and the longitude value must be between -180 and +180.</value>
+  </data>
+  <data name="MissingRoomRate" xml:space="preserve">
+    <value>The rateId field is required in the request.</value>
+  </data>
+  <data name="MissingRateReferenceId" xml:space="preserve">
+    <value>The rateRefId field is required in the request. </value>
+  </data>
+  <data name="InvalidCountryCode" xml:space="preserve">
+    <value>Invalid country code provided in the request.</value>
+  </data>
+  <data name="InvalidRadius" xml:space="preserve">
+    <value>The radius must be between 1 and 100.</value>
+  </data>
+  <data name="InvalidRateIdFormat" xml:space="preserve">
+    <value>Invalid rateId provided in the request.</value>
+  </data>
+  <data name="MissingRateIds" xml:space="preserve">
+    <value>The rateIds are required in the request. </value>
+  </data>
+  <data name="InvalidSupplierIdInSupplierSpecificOptions" xml:space="preserve">
+    <value>Invalid supplierId, {0}, provided in SupplierSpecificOptions.</value>
+  </data>
+  <data name="TenantNotFound" xml:space="preserve">
+    <value>No tenant found with tenantId {0}.</value>
+  </data>
+  <data name="InvalidCulture" xml:space="preserve">
+    <value>Invalid culture provided in the header.</value>
+  </data>
+  <data name="SupplierConfigurationNotAvailable" xml:space="preserve">
+    <value>The supplier configuration is not available for the following supplierIds: {0}.</value>
+  </data>
+  <data name="MissingConnectorMetadata" xml:space="preserve">
+    <value>Invalid connector metadata. The following details are missing: {0}.</value>
+  </data>
+  <data name="UnSupportedCulture" xml:space="preserve">
+    <value>The supplier does not support the {0} culture.</value>
+  </data>
+  <data name="UnSupportedRateTypes" xml:space="preserve">
+    <value>The supplier does not support the following rate types: {0}.</value>
+  </data>
+  <data name="InvalidCreditCardIssuedBy" xml:space="preserve">
+    <value>The credit card Issuer is not supported.</value>
+  </data>
+  <data name="CreditCardNotRequired" xml:space="preserve">
+    <value>The supplier does not require a credit card payment for this booking.</value>
+  </data>
+  <data name="CreditCardRequired" xml:space="preserve">
+    <value>The credit card details are required in the request.</value>
+  </data>
+  <data name="UnSupportedSpecialRequest" xml:space="preserve">
+    <value>The supplier does not support special requests. </value>
+  </data>
+  <data name="UnSupportedLoyaltyMembership" xml:space="preserve">
+    <value>The supplier does not support loyalty memberships.</value>
+  </data>
+  <data name="FirstNameLengthExceeded" xml:space="preserve">
+    <value>The firstName value must be less than {0} characters.</value>
+  </data>
+  <data name="LastNameLengthExceeded" xml:space="preserve">
+    <value>The lastName value must be less than {0} characters.</value>
+  </data>
+  <data name="InvalidFirstName" xml:space="preserve">
+    <value>The firstName value cannot contain special characters. </value>
+  </data>
+  <data name="InvalidLastName" xml:space="preserve">
+    <value>The lastName value cannot contain special characters. </value>
+  </data>
+  <data name="MissingBookingContactNameInformation" xml:space="preserve">
+    <value>The booking contact person name information is missing in the {0} field.</value>
+  </data>
+  <data name="MissingContactFirstName" xml:space="preserve">
+    <value>The customer firstName field is required in the request. </value>
+  </data>
+  <data name="MissingContactLastName" xml:space="preserve">
+    <value>The customer lastName field is required in the request. </value>
+  </data>
+  <data name="InvalidContactInformation" xml:space="preserve">
+    <value>Invalid customer contact information provided in the request. </value>
+  </data>
+  <data name="InvalidPhoneInformation" xml:space="preserve">
+    <value>Invalid phone information provided for the {0} in the booking request.</value>
+  </data>
+  <data name="InvalidAddressInformation" xml:space="preserve">
+    <value>Invalid address provided for the customer. </value>
+  </data>
+  <data name="MissingAddressLine" xml:space="preserve">
+    <value>The customer address line1 field is required in the request. </value>
+  </data>
+  <data name="MissingCityInformation" xml:space="preserve">
+    <value>The customer city name or code fields are required in the request.</value>
+  </data>
+  <data name="MissingCountryCode" xml:space="preserve">
+    <value>The customer countryCode field is required in the request.</value>
+  </data>
+  <data name="MissingEmailInformation" xml:space="preserve">
+    <value>The customer email field is required in the request.</value>
+  </data>
+  <data name="InvalidMembershipInformation" xml:space="preserve">
+    <value>Invalid loyalty membership information provided in the request.</value>
+  </data>
+  <data name="MissingCreditCardNumber" xml:space="preserve">
+    <value>The credit card num field is required in the request.</value>
+  </data>
+  <data name="MissingNameOnCreditCard" xml:space="preserve">
+    <value>The nameOnCard field is required in the request. </value>
+  </data>
+  <data name="MissingCreditCardExpiryDate" xml:space="preserve">
+    <value>The credit card expiry month and year fields are required in the request.</value>
+  </data>
+  <data name="CreditCardExpired" xml:space="preserve">
+    <value>The credit card provided has already expired.</value>
+  </data>
+  <data name="MissingCreditCardCvv" xml:space="preserve">
+    <value>The credit card cvv field is required in the request.</value>
+  </data>
+  <data name="MissingCreditCardBillingAddress" xml:space="preserve">
+    <value>The credit card billing address field is required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressLine1" xml:space="preserve">
+    <value>The credit card billing address line1 field is required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressCity" xml:space="preserve">
+    <value>The credit card billing address city details are required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressCountryCode" xml:space="preserve">
+    <value>The credit card billing address countryCode field is required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressPostalCode" xml:space="preserve">
+    <value>The credit card billing address postalCode field is required in the request.</value>
+  </data>
+  <data name="MissingCreditCardStateDetails" xml:space="preserve">
+    <value>The credit card billing address state name and code fields are required in the request.</value>
+  </data>
+  <data name="InvalidCreditCardExpiryMonth" xml:space="preserve">
+    <value>Invalid credit card expiry month provided in the request.</value>
+  </data>
+  <data name="InvalidCreditCardExpiryYear" xml:space="preserve">
+    <value>Invalid credit card expiry year provided in the request.</value>
+  </data>
+  <data name="SupplierValidation" xml:space="preserve">
+    <value>The supplier returned validation errors. </value>
+  </data>
+  <data name="InvalidCreditCardDetails" xml:space="preserve">
+    <value>Invalid credit card details provided in the request. </value>
+  </data>
+  <data name="CreditCardDeclined" xml:space="preserve">
+    <value>Credit card declined. Either the credit card number is invalid or the merchant blocked the credit card.</value>
+  </data>
+  <data name="InvalidCreditCardSecurityValue" xml:space="preserve">
+    <value>Incorrect credit card security code provided. </value>
+  </data>
+  <data name="InvalidCreditCardSecureCode" xml:space="preserve">
+    <value>Incorrect credit card security code provided or the security code validation process failed.</value>
+  </data>
+  <data name="MissingDetailsInCancellation" xml:space="preserve">
+    <value>The following details are required in the cancellation request: {0}.</value>
+  </data>
+  <data name="BookingDoesNotExist" xml:space="preserve">
+    <value>You cannot cancel a booking that does not exist.</value>
+  </data>
+  <data name="BookingAlreadyCancelled" xml:space="preserve">
+    <value>You cannot cancel a booking that is already canceled.</value>
+  </data>
+  <data name="StateNotFound" xml:space="preserve">
+    <value>No previous state found for this request. You must initiate search once again. </value>
+  </data>
+  <data name="InvalidBookingConfirmation" xml:space="preserve">
+    <value>The supplierConfirmationNum field is required in the request.</value>
+  </data>
+  <data name="MissingCustomerName" xml:space="preserve">
+    <value>Customer name field is required in the request. </value>
+  </data>
+  <data name="CancellationNotSupported" xml:space="preserve">
+    <value>The supplier, {0}, does not support cancellations.</value>
+  </data>
+  <data name="CustomerInformationRequiredInCancellation" xml:space="preserve">
+    <value>The supplier, {0}, requires the customer information in the cancellation request.</value>
+  </data>
+  <data name="InvalidAdultAge" xml:space="preserve">
+    <value>The adult age must be between {0} and {1}.</value>
+  </data>
+  <data name="InvalidSearchDate" xml:space="preserve">
+    <value>The start date must not be later than {0} days from the current date.</value>
+  </data>
+  <data name="InvalidValueInRequest" xml:space="preserve">
+    <value>Invalid {0} provided in the request.</value>
+  </data>
+  <data name="InvalidSupplierId" xml:space="preserve">
+    <value>Invalid supplierId provided in the request.</value>
+  </data>
+  <data name="MissingTenantId" xml:space="preserve">
+    <value>The tenantId field is required in the request.</value>
+  </data>
+  <data name="NoResultsOrAllResultsFilteredOut" xml:space="preserve">
+    <value>There are no search results found or all the search results are filtered out.</value>
+  </data>
+  <data name="MissingCustomerInformationInBooking" xml:space="preserve">
+    <value>The customer field is required in the booking request.</value>
+  </data>
+  <data name="MissingTitleInName" xml:space="preserve">
+    <value>The title field is required in the name.</value>
+  </data>
+  <data name="MissingLocationCode" xml:space="preserve">
+    <value>The {0} code is required in the request. </value>
+  </data>
+  <data name="MissingLocationName" xml:space="preserve">
+    <value>The {0} name is required in the request. </value>
+  </data>
+  <data name="MissingStateInformation" xml:space="preserve">
+    <value>The state field for the address is required in the request.</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Invalid email address provided in the request.</value>
+  </data>
+  <data name="MissingNationality" xml:space="preserve">
+    <value>The nationality field is required in the request.</value>
+  </data>
+  <data name="MissingDateOfBirth" xml:space="preserve">
+    <value>The dob field is required in the request.</value>
+  </data>
+  <data name="MissingCurrency" xml:space="preserve">
+    <value>The currency is missing in the request.</value>
+  </data>
+  <data name="InvalidAmountInBookingRequest" xml:space="preserve">
+    <value>Invalid amount provided in the booking request. </value>
+  </data>
+  <data name="InvalidCurrencyInBookingRequest" xml:space="preserve">
+    <value>The currency in the booking request must be the same as the currency requested in pricing.</value>
+  </data>
+  <data name="CardOwnerPhoneNumbersMissing" xml:space="preserve">
+    <value>The card holder's  phone number is required in the request.</value>
+  </data>
+  <data name="CardOwnerPhoneNumberInvalid" xml:space="preserve">
+    <value>Invalid card holder phone number provided in the request.</value>
+  </data>
+  <data name="MissingTenantConfigurations" xml:space="preserve">
+    <value>The following tenant configuration details are required: {0}.</value>
+  </data>
+  <data name="ConnectorIdentifierMissingInMetadataRequest" xml:space="preserve">
+    <value>The connector identifier is required in the metadata request.</value>
+  </data>
+  <data name="InvalidProductNameInMetadataRequest" xml:space="preserve">
+    <value>Invalid product name provided in the metadata request.</value>
+  </data>
+  <data name="WrongConnectorIdentifier" xml:space="preserve">
+    <value>Invalid connector identifier, {0}, provided in the request.</value>
+  </data>
+  <data name="MissingCriteria" xml:space="preserve">
+    <value>Criteria is required in the request.</value>
+  </data>
+  <data name="MissingPaymentType" xml:space="preserve">
+    <value>PaymentType is required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressCityName" xml:space="preserve">
+    <value>Credit Card Billing Address City Name is Missing.</value>
+  </data>
+  <data name="MissingBillingAddressStateCode" xml:space="preserve">
+    <value>Credit Card Billing Address State Code is Missing.</value>
+  </data>
+  <data name="InvalidBookingContactAge" xml:space="preserve">
+    <value>Booking contact person age is invalid in {0} Field.</value>
+  </data>
+  <data name="InvalidCashFormOfPayment" xml:space="preserve">
+    <value>You cannot provide information for the payment field when the paymentType is set to cash. </value>
+  </data>
+  <data name="InvalidCreditCardNumberLength" xml:space="preserve">
+    <value>The length of credit card num provided is invalid. Length should be greater than or equal to {0}</value>
+  </data>
+  <data name="MissingBookingContactPhoneNumber" xml:space="preserve">
+    <value>Booking contact phone number is missing.</value>
+  </data>
+  <data name="MissingBookingContactPhoneDetails" xml:space="preserve">
+    <value>Booking contact phone details like number , extentions is missing.</value>
+  </data>
+  <data name="InvalidTitleInName" xml:space="preserve">
+    <value>The value of title field in the name is invalid.</value>
+  </data>
+  <data name="InvalidPhoneType" xml:space="preserve">
+    <value>The value of phone type field in the phone is invalid.</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>The format of the date provided in the {0} field is invalid.</value>
+  </data>
+  <data name="MissingCreditCardIssuedBy" xml:space="preserve">
+    <value>Credit card Issuer Missing. Please add valid credit card issuer.</value>
+  </data>
+  <data name="NonCancellableBooking" xml:space="preserve">
+    <value>Cancellation not allowed for this booking</value>
+  </data>
+  <data name="IpAddressMissingOrInvalid" xml:space="preserve">
+    <value>The Ip Address is either missing or is in invalid format.</value>
+  </data>
+  <data name="InvalidDateTimeFormat" xml:space="preserve">
+    <value>The {0}.{1} value must be in YYYY-MM-DD format.</value>
+  </data>
+  <data name="InvalidTimeFormat" xml:space="preserve">
+    <value>The {0} value must be in HH:mm format.</value>
+  </data>
+  <data name="MissingAirportCode" xml:space="preserve">
+    <value>Airport code is required field in request.</value>
+  </data>
+  <data name="NoSupportForOnlineCancellation" xml:space="preserve">
+    <value>The supplier does not allow online cancellation for this booking. </value>
+  </data>
+  <data name="LookUpFailed" xml:space="preserve">
+    <value>Data Lookup failed for '{0}' for Id: '{1}'.</value>
+  </data>
+  <data name="InvalidCorrelationId" xml:space="preserve">
+    <value>Invalid correlation Id provided in the header.</value>
+  </data>
+  <data name="MissingPickupLocation" xml:space="preserve">
+    <value>Pickup location is required in request</value>
+  </data>
+  <data name="MissingDropoffLocation" xml:space="preserve">
+    <value>Dropoff location is required in request</value>
+  </data>
+  <data name="MissingPickupAirportOrRentalLocationCode" xml:space="preserve">
+    <value>Either pickup airport code or rental location is required in request</value>
+  </data>
+  <data name="MissingPickupDate" xml:space="preserve">
+    <value>Pickup date is required in request</value>
+  </data>
+  <data name="InvalidPickupDate" xml:space="preserve">
+    <value>Pickup date is invalid or past</value>
+  </data>
+  <data name="InvalidPickupTimeFormat" xml:space="preserve">
+    <value>Pickup time value must be in HH:mm format.</value>
+  </data>
+  <data name="MissingDropoffAirportOrRentalLocationCode" xml:space="preserve">
+    <value>Either dropoff airport code or rental location is required in request</value>
+  </data>
+  <data name="MissingDropoffDate" xml:space="preserve">
+    <value>Dropoff date is required in request</value>
+  </data>
+  <data name="InvalidDropoffDate" xml:space="preserve">
+    <value>Dropoff date is invalid or past</value>
+  </data>
+  <data name="InvalidDropoffTimeFormat" xml:space="preserve">
+    <value>Dropoff time value must be in HH:mm format.</value>
+  </data>
+  <data name="InvalidPickupCriteria" xml:space="preserve">
+    <value>Pickup criteria is either required airport code or rental location</value>
+  </data>
+  <data name="InvalidDropoffCriteria" xml:space="preserve">
+    <value>Dropoff criteria is either required airport code or rental location</value>
+  </data>
+  <data name="MissingDriverInfo" xml:space="preserve">
+    <value>Driver information is required in request</value>
+  </data>
+  <data name="MissingDriverAge" xml:space="preserve">
+    <value>Driver age is required in request</value>
+  </data>
+  <data name="InvalidVehicleTypeFilter" xml:space="preserve">
+    <value>Allow and Disallow vehicle types must be different</value>
+  </data>
+  <data name="InvalidVehicleCategoryFilter" xml:space="preserve">
+    <value>Allow and Disallow vehicle categories must be different</value>
+  </data>
+  <data name="InvalidVendorFilter" xml:space="preserve">
+    <value>Allow and Disallow vendors must be different</value>
+  </data>
+  <data name="DropOffPriorToPickupDate" xml:space="preserve">
+    <value>The dropoff date cannot be earlier than the pickup date.</value>
+  </data>
+  <data name="InvalidCarSearchCriteria" xml:space="preserve">
+    <value>Invalid car search criteria</value>
+  </data>
+  <data name="InvalidCriteriaFound" xml:space="preserve">
+    <value>Either no or more than one criteria is provided in the request</value>
+  </data>
+  <data name="RateLimitExceeded" xml:space="preserve">
+    <value>Number of request exceeded allowed limit.</value>
+  </data>
+  <data name="InvalidDriverNationality" xml:space="preserve">
+    <value>The nationality field has invalid value in the request.</value>
+  </data>
+  <data name="MissingVendorCode" xml:space="preserve">
+    <value>Vendor code is required in request</value>
+  </data>
+  <data name="MissingVehicleDetails" xml:space="preserve">
+    <value>Vehicle information is required in request</value>
+  </data>
+  <data name="MissingVehicleSippCode" xml:space="preserve">
+    <value>Vehicle SippCode  is required in request</value>
+  </data>
+  <data name="InvalidDropoffLocation" xml:space="preserve">
+    <value>Dropoff location is invalid</value>
+  </data>
+  <data name="MissingRateCode" xml:space="preserve">
+    <value>Rate Code is required in request</value>
+  </data>
+  <data name="InvalidRateCode" xml:space="preserve">
+    <value>Rate Code is invalid</value>
+  </data>
+  <data name="InvalidIATANumber" xml:space="preserve">
+    <value>IATA Number is invalid</value>
+  </data>
+  <data name="InvalidDriverAge" xml:space="preserve">
+    <value>The driver's age must be between {0} and {1}.</value>
+  </data>
+  <data name="InvalidSearchLocations" xml:space="preserve">
+    <value>You should specify Airport code or Geo region or Rental location Id for pickup/dropoff.</value>
+  </data>
+  <data name="InvalidCarSearchPattern" xml:space="preserve">
+    <value>If pickup is requested at rental location, drop off should also be rental location.</value>
+  </data>
+  <data name="InvalidCarSearchSupplierIds" xml:space="preserve">
+    <value>If car rental search is for specific rental location, you cannot specify multiple supplier ids.</value>
+  </data>
+  <data name="NoRentalLocationsForGivenCriteria" xml:space="preserve">
+    <value>No rental locations found for given search criteria.</value>
+  </data>
+  <data name="InvalidPickupLocation" xml:space="preserve">
+    <value>Pickup location is invalid</value>
+  </data>
+  <data name="InvalidDiscount" xml:space="preserve">
+    <value>Discount code is invalid</value>
+  </data>
+  <data name="InvalidCarGroup" xml:space="preserve">
+    <value>Car group is invalid</value>
+  </data>
+  <data name="BlockedRateCode" xml:space="preserve">
+    <value>RateCode is blocked</value>
+  </data>
+  <data name="BlockedDiscountCode" xml:space="preserve">
+    <value>DiscountCode is blocked</value>
+  </data>
+  <data name="BlockedIATANumber" xml:space="preserve">
+    <value>IATA number is blocked</value>
+  </data>
+  <data name="InvalidRentalLocation" xml:space="preserve">
+    <value>Rental location is invalid</value>
+  </data>
+  <data name="InvalidAirportCode" xml:space="preserve">
+    <value>Airport code is invalid</value>
+  </data>
+  <data name="InvalidVendorName" xml:space="preserve">
+    <value>Vendor name is invalid</value>
+  </data>
+  <data name="InvalidMethodOfPayment" xml:space="preserve">
+    <value>Method of Payment is invalid</value>
+  </data>
+  <data name="CarTypeNotSupported" xml:space="preserve">
+    <value>Requested car is not supported</value>
+  </data>
+  <data name="InvalidCoverageType" xml:space="preserve">
+    <value>Coverage type is invalid</value>
+  </data>
+  <data name="RetrieveReservationFailed" xml:space="preserve">
+    <value>Unable to retrieve the reservation details</value>
+  </data>
+  <data name="ReservationFailed" xml:space="preserve">
+    <value>Unable to make a reservation</value>
+  </data>
+  <data name="CancellationFailed" xml:space="preserve">
+    <value>Unable to cancel this reservation</value>
+  </data>
+  <data name="MatchingVehicleNotFound" xml:space="preserve">
+    <value>No vehicle found matching the request</value>
+  </data>
+  <data name="VehicleTypeNotSupported" xml:space="preserve">
+    <value>Requested vehicle type not supported</value>
+  </data>
+  <data name="VehicleClassNotSupported" xml:space="preserve">
+    <value>Requested vehicle class not supported</value>
+  </data>
+  <data name="RateNotAvailble" xml:space="preserve">
+    <value>Rate not available</value>
+  </data>
+  <data name="UnableToTransact" xml:space="preserve">
+    <value>Unable to process the transaction</value>
+  </data>
+  <data name="CreditCardNotAccepted" xml:space="preserve">
+    <value>Credit card is not accepted for transaction</value>
+  </data>
+  <data name="StationClosed" xml:space="preserve">
+    <value>Rental location station closed</value>
+  </data>
+  <data name="RentalPeriodLimitExceeds" xml:space="preserve">
+    <value>Rental period limit is exceeded</value>
+  </data>
+  <data name="InvalidCarType" xml:space="preserve">
+    <value>Car type is invalid</value>
+  </data>
+  <data name="InvalidCreditCard" xml:space="preserve">
+    <value>Credit card is invalid</value>
+  </data>
+  <data name="ModifiedCreditCard" xml:space="preserve">
+    <value>Credit card can not be modified</value>
+  </data>
+  <data name="PackageUnavailable" xml:space="preserve">
+    <value>Package Unavailable</value>
+  </data>
+  <data name="InvalidCreditId" xml:space="preserve">
+    <value>Invalid Credit Id for this location</value>
+  </data>
+  <data name="DatesNotAvailable" xml:space="preserve">
+    <value>Requested dates have been closed out</value>
+  </data>
+  <data name="CarSoldOut" xml:space="preserve">
+    <value>Requested car is sold out</value>
+  </data>
+  <data name="RentalIncludeWeekend" xml:space="preserve">
+    <value>Rental must include a weekend</value>
+  </data>
+  <data name="RentalIncludeWeekday" xml:space="preserve">
+    <value>Rental must include one weekday</value>
+  </data>
+  <data name="CarsNotAvailable" xml:space="preserve">
+    <value>No cars available for one way rental</value>
+  </data>
+  <data name="ModelNotAvailable" xml:space="preserve">
+    <value>Requested make/model is not available.</value>
+  </data>
+  <data name="CarGroupNotAvailable" xml:space="preserve">
+    <value>Requested car group is not available</value>
+  </data>
+  <data name="InvalidReservation" xml:space="preserve">
+    <value>Reservation is invalid</value>
+  </data>
+  <data name="AdvancedReservation" xml:space="preserve">
+    <value>Advanced booking required. Contact location for reservation.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Please verify the token passed in the request. Token value must match the nextToken field from the earlier getResults call.</value>
+  </data>
+  <data name="MissingVehicleCategory" xml:space="preserve">
+    <value>Vehicle Category is missing or invalid in the request</value>
+  </data>
+  <data name="MissingVehicleType" xml:space="preserve">
+    <value>Vehicle Type is missing or invalid in the request</value>
+  </data>
+  <data name="MissingVehicleTransmission" xml:space="preserve">
+    <value>Vehicle Transmission is missing or invalid in the request</value>
+  </data>
+  <data name="MissingDriverNationality" xml:space="preserve">
+    <value>The driver's nationality is required in the request.</value>
+  </data>
+  <data name="MissingRentalLocationId" xml:space="preserve">
+    <value>The rentalLocationId field is required in the request.</value>
+  </data>
+  <data name="DropOffTimeMustBeGreaterThanPickupTime" xml:space="preserve">
+    <value>The dropoff time must be later than the pickup time.</value>
+  </data>
+  <data name="InvalidRentalDuration" xml:space="preserve">
+    <value>The car rental duration must not exceed {0} days.</value>
+  </data>
+  <data name="MissingDiscountCodes" xml:space="preserve">
+    <value>Either the promoCode, rateCode, or corporateCode field is required in the vendorSpecificOptions field.</value>
+  </data>
+  <data name="MissingAllowedVehicleCategoriesInFilter" xml:space="preserve">
+    <value>The vehicleCategory field is required in the vehicleCategory.allow filter.</value>
+  </data>
+  <data name="MissingAllowedVehicleTypesInFilter" xml:space="preserve">
+    <value>The vehicleType field is required in the vehicleType.allow filter.</value>
+  </data>
+  <data name="MissingDisAllowedVehicleCategoriesInFilter" xml:space="preserve">
+    <value>The vehicleCategory field is required in the vehicleCategory.disallow filter.</value>
+  </data>
+  <data name="MissingDisAllowedVehicleTypesInFilter" xml:space="preserve">
+    <value>The vehicleType is required in the vehicleType.disallow filter.</value>
+  </data>
+  <data name="InvalidVendorSpecificOptions" xml:space="preserve">
+    <value>You cannot send multiple vendorSpecificOption for same vendor in the request.</value>
+  </data>
+  <data name="InvalidFieldValue" xml:space="preserve">
+    <value>The value provided in {0} is invalid in the request</value>
+  </data>
+  <data name="MissingField" xml:space="preserve">
+    <value>The value for {0} is missing in the request</value>
+  </data>
+  <data name="MissingRentalId" xml:space="preserve">
+    <value>Rental Id missing in the request.</value>
+  </data>
+  <data name="InvalidRentalId" xml:space="preserve">
+    <value>Rental Id provided in the request is invalid.</value>
+  </data>
+  <data name="EquipmentUnavailable" xml:space="preserve">
+    <value>The chosen equipment is unavailable</value>
+  </data>
+  <data name="OneWayRentalNotPermitted" xml:space="preserve">
+    <value>Unfortunately this oneway rental is not permitted</value>
+  </data>
+  <data name="TravelBetweenStationsNotPermitted" xml:space="preserve">
+    <value>Travel between these stations is not permitted</value>
+  </data>
+  <data name="InvalidCreditCardName" xml:space="preserve">
+    <value>Name on credit card must match client name.</value>
+  </data>
+  <data name="BookingVehicleAllocated" xml:space="preserve">
+    <value>Booking of an allocated vehicle</value>
+  </data>
+  <data name="PhoneCancellation" xml:space="preserve">
+    <value>Customer can only cancel by phone</value>
+  </data>
+  <data name="HighEquipmentQuantity" xml:space="preserve">
+    <value>Equipment quantity too high</value>
+  </data>
+  <data name="AfterHourService" xml:space="preserve">
+    <value>After hours service is not available at this time</value>
+  </data>
+  <data name="CancellationNotPossible" xml:space="preserve">
+    <value>Cancellation is not possible at the moment. Please try again later.</value>
+  </data>
+  <data name="RentalTermsNotAvailable" xml:space="preserve">
+    <value>Rental terms aren't available at the moment. Please try again later.</value>
+  </data>
+  <data name="ReservationCancelled" xml:space="preserve">
+    <value>Reservation was already cancelled</value>
+  </data>
+  <data name="ReservationExists" xml:space="preserve">
+    <value>Reservation already exists</value>
+  </data>
+  <data name="AllowDisallowFilterConstraint" xml:space="preserve">
+    <value>Either the allow object or the disallow object can be set in the {0} filter. You cannot set values for both the objects in one request.</value>
+  </data>
+  <data name="CancellationAlreadyAttempted" xml:space="preserve">
+    <value>Cancellation was already attempted for the given trip id. You cannot attempt the cancellation again.</value>
+  </data>
+  <data name="NoBookingFoundForCancellation" xml:space="preserve">
+    <value>No booking found with the given trip id.</value>
+  </data>
+  <data name="CannotCancelFailedOrUnconfirmedBooking" xml:space="preserve">
+    <value>Failed or Unconfirmed booking cannot be cancelled.</value>
+  </data>
+  <data name="MissingDoorCount" xml:space="preserve">
+    <value>The doorCount is required in the criteria.vehicle</value>
+  </data>
+  <data name="MultiFormOfPaymentNotAllowed" xml:space="preserve">
+    <value>Multiple form of payment is not allowed. Single form of payment accepted</value>
+  </data>
+  <data name="InvalidDoorCount" xml:space="preserve">
+    <value>Invalid doorCount provided in the criteria.vehicle  - doorCount value must be 2 or 4</value>
+  </data>
+  <data name="InvalidVehicleType" xml:space="preserve">
+    <value>VehicleType is invalid in the request.{0}</value>
+  </data>
+  <data name="InvalidVehicleCategory" xml:space="preserve">
+    <value>VehicleCategory is invalid in the request.{0}</value>
+  </data>
+  <data name="MissingPickupRentalLocationCode" xml:space="preserve">
+    <value>Missing pickup rental location code in the request.</value>
+  </data>
+  <data name="MissingDropoffRentalLocationCode" xml:space="preserve">
+    <value>Missing dropoff rental location code in the request.</value>
+  </data>
+  <data name="InvalidMinPriceFilter" xml:space="preserve">
+    <value>The minPrice must be a positive, nonzero value.</value>
+  </data>
+  <data name="InvalidMaxPriceFilter" xml:space="preserve">
+    <value>The maxPrice must be a positive, nonzero value.</value>
+  </data>
+  <data name="MinPriceGreaterThanMax" xml:space="preserve">
+    <value>The minPrice value must be lower than the maxPrice value. </value>
+  </data>
+  <data name="MissingAddressPostalCode" xml:space="preserve">
+    <value>The address postalCode field is required in the request.{0} </value>
+  </data>
+  <data name="MissingAddressCountryCode" xml:space="preserve">
+    <value>The address countryCode field is required in the request.{0} </value>
+  </data>
+  <data name="MissingAddressLine1" xml:space="preserve">
+    <value>The address line1 field is required in the request.{0} </value>
+  </data>
+  <data name="MissingAddressCity" xml:space="preserve">
+    <value>The city name or code fields are required in the request.{0} </value>
+  </data>
+  <data name="InvalidSearchLocationFormat" xml:space="preserve">
+    <value>Either the airport code, geo region, or rental location ID can be provided in the request.</value>
+  </data>
+  <data name="InvalidRadiusForCarSearch" xml:space="preserve">
+    <value>The radius must be between {0} and {1}.</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>A system error occurred. Try again after some time.</value>
+  </data>
+  <data name="UnMappedSupplier" xml:space="preserve">
+    <value>The following supplier exception occurred: {0}. This exception does not map with any existing supplier error.</value>
+  </data>
+  <data name="SupplierServerDown" xml:space="preserve">
+    <value>The supplier server is unreachable. Try again after some time.</value>
+  </data>
+  <data name="SupplierSystem" xml:space="preserve">
+    <value>An error occurred at the supplier's side. Try again after some time.</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>A timeout exception occurred.</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>A supplier exception occurred.</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>An application exception occurred.</value>
+  </data>
+  <data name="ConnectorCallFaulted" xml:space="preserve">
+    <value>The connector call returned error. </value>
+  </data>
+  <data name="InvalidConfigurations" xml:space="preserve">
+    <value>Required configurations are missing or invalid.</value>
+  </data>
+  <data name="RequestProcessingError" xml:space="preserve">
+    <value>An error occurred while processing the request.</value>
+  </data>
+  <data name="SessionStoreRead" xml:space="preserve">
+    <value>An error occurred while reading data from the session store.</value>
+  </data>
+  <data name="SessionStoreWrite" xml:space="preserve">
+    <value>An error occurred while writing data to the session store.</value>
+  </data>
+  <data name="CouldNotResolveType" xml:space="preserve">
+    <value>Unable to resolve the {0} type. {1}.</value>
+  </data>
+  <data name="Metadata" xml:space="preserve">
+    <value>An error occurred while using the metadata.</value>
+  </data>
+  <data name="ParsingFailure" xml:space="preserve">
+    <value>Unable to parse supplier response.</value>
+  </data>
+  <data name="ServiceCommunication" xml:space="preserve">
+    <value>An error occurred while communicating with the service.</value>
+  </data>
+  <data name="ConnectorServiceCommunication" xml:space="preserve">
+    <value>An error occurred while communicating with the connector service.</value>
+  </data>
+  <data name="SupplierCommunication" xml:space="preserve">
+    <value>Could not call any supplier, this might be either because of configuration issues or supplier request validation failures.</value>
+  </data>
+  <data name="InvalidConnectorResponse" xml:space="preserve">
+    <value>Invalid connector response.</value>
+  </data>
+  <data name="InvalidSupplierResponse" xml:space="preserve">
+    <value>Invalid supplier response. Booking failed.</value>
+  </data>
+  <data name="TenantConfigurationRead" xml:space="preserve">
+    <value>Unable to read the tenant configuration.</value>
+  </data>
+  <data name="ContentServiceFaulted" xml:space="preserve">
+    <value>Unable to call the content service due to a communication error.</value>
+  </data>
+  <data name="ContentService" xml:space="preserve">
+    <value>An error occurred while communicating with the content service.</value>
+  </data>
+  <data name="PricesChanged" xml:space="preserve">
+    <value>The booking failed because the room price recently changed.</value>
+  </data>
+  <data name="CreditCardFraudDetected" xml:space="preserve">
+    <value>Credit card fraud detected.</value>
+  </data>
+  <data name="TranslationMissing" xml:space="preserve">
+    <value>Translation missing for type {0}.</value>
+  </data>
+  <data name="CancelFailed" xml:space="preserve">
+    <value>Unable to process the cancellation request. </value>
+  </data>
+  <data name="SupplierException" xml:space="preserve">
+    <value>Unable to process the request due to an unexpected supplier exception. </value>
+  </data>
+  <data name="ConsumerServiceCommunication" xml:space="preserve">
+    <value>Error occurred while communicating with {0} consumer service.</value>
+  </data>
+  <data name="UnexpectedSystemException" xml:space="preserve">
+    <value>An internal server error occured. Check the logs for more details</value>
+  </data>
+  <data name="ConnectorReadFailure" xml:space="preserve">
+    <value>Could not fetch the connector configuration for connector : {0}</value>
+  </data>
+  <data name="ConnectorConfigurationSpecNotFound" xml:space="preserve">
+    <value>Could not fetch the connector configuration requirements for connector : {0}</value>
+  </data>
+  <data name="MissingExternalServiceConfiguration" xml:space="preserve">
+    <value>The Configuration : {0} is missing in consul for {1} service.</value>
+  </data>
+  <data name="NoResultsForSearchCriteria" xml:space="preserve">
+    <value>There are no results for the search criteria provided. </value>
+  </data>
+  <data name="SupplierDisabled" xml:space="preserve">
+    <value>{0} supplier is disabled. No operation executed on this supplier</value>
+  </data>
+</root>

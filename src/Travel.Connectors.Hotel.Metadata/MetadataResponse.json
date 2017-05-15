@@ -1,0 +1,95 @@
+﻿{
+
+  "connectorIdentifier": "getaroom",
+  "supplierFamily": "getaroom",
+  "ipRestricted": "no",
+  "supportedCurrencies": [ "USD", "EUR", "AUD", "GBP" ],
+  "properties":"",
+  "markets":"",
+  "countriesSupported":"",
+  "staticContent": {
+    "cultures": [ "en-US" ],
+    "source":"",
+    "updateFrequency":""
+  },
+  "paymentMode":"",
+  "merchantsOfRecord":"",
+  "rateTypes": "",
+  "inventoryTypes":"",
+  "supportedCultures": [
+    "en-US"
+  ],
+  "guestLimitForBooking": "",
+  "multiroom": {
+    "supported": true,
+    "maxRoomsPerBooking":"",
+    //"maxGuestsPerRoom": "",
+    "fareType": "perBooking",
+    "allowDifferentOccupancies": true,
+    "cancellationType": ""
+  },
+
+  "verbs": {
+    "search": {
+      "patterns": [
+        "byHotelIds"
+      ],
+
+      "maxHotelsSupported": 100,
+      "maxRadiusKmAllowed": 0,
+      "maxRateCodesAllowed": 0,
+      "optionalData": [
+        "roomOptions",
+        "roomRates"
+      ],
+      "maxAllowedChildAge": 18,
+      "advanceBookingLimit": "",
+      "sameDayBookingAllowed": false,
+      "maxStay": "",
+      "requestOptions": ""
+    },
+
+    "roomRates": {
+      "maxRateCodesAllowed": "",
+      "optionalData": "",
+      "requestOptions": ""
+    },
+
+    "rateRules": {
+      "rateCodeAllowed": "",
+      "cancellationPolicyFormat": "",
+      "optionalData": "",
+      "requestOptions": "",
+      "guaranteeRequired": "",
+      "depositRequired": "",
+      "refundablity": "",
+      "creditCardInfo": {
+        "rateSpecific": "",
+        "vendors": ""
+      },
+      "allPaxRequiredForBooking": ""
+    },
+    "book": {
+      "restriction": {
+        "firstNameMaxLength": 30,
+        "lastNameMaxLength": 30,
+        "specialCharacters": {
+          "allowedCharacters": "",
+          "disallowedCharacters": ""
+        }
+      },
+
+      "requestOptions": "",
+      "formOfPaymentsSupported": ""
+    },
+
+    "cancel": {
+      "supported": "",
+      "customerDetailsRequired": ""
+    },
+
+    "getBookings": {
+      "supported": ""
+    }
+  }
+}

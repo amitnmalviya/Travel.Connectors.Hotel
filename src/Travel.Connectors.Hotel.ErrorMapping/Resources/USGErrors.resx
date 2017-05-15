@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorCode1" xml:space="preserve">
+    <value>Invalid sessionId provided in the request.</value>
+  </data>
+  <data name="ErrorCode2" xml:space="preserve">
+    <value>Invalid tenantId provided in the header.</value>
+  </data>
+  <data name="ErrorCode3" xml:space="preserve">
+    <value>Invalid currency provided in the request.</value>
+  </data>
+  <data name="ErrorCode5" xml:space="preserve">
+    <value>Invalid request. Verify the request format and then try again.</value>
+  </data>
+  <data name="ErrorCode6" xml:space="preserve">
+    <value>A system error occurred. Try again after some time.</value>
+  </data>
+  <data name="ErrorCode7" xml:space="preserve">
+    <value>No request found. You must provide a valid request.</value>
+  </data>
+  <data name="ErrorCode8" xml:space="preserve">
+    <value>The sessionId field is required in the request.</value>
+  </data>
+  <data name="ErrorCode12" xml:space="preserve">
+    <value>The following supplier exception occurred: {string|supplier}. This exception does not map with any existing supplier error.</value>
+  </data>
+  <data name="ErrorCode13" xml:space="preserve">
+    <value>There are no results for the search criteria provided.</value>
+  </data>
+  <data name="ErrorCode14" xml:space="preserve">
+    <value>The supplier server is unreachable. Try again after some time.</value>
+  </data>
+  <data name="ErrorCode15" xml:space="preserve">
+    <value>An error occurred at the supplier's side. Try again after some time.</value>
+  </data>
+  <data name="ErrorCode18" xml:space="preserve">
+    <value>The supplier details are required in the request.</value>
+  </data>
+  <data name="ErrorCode19" xml:space="preserve">
+    <value>The supplierId field is required in the request.</value>
+  </data>
+  <data name="ErrorCode20" xml:space="preserve">
+    <value>The supplierName field is required in the request.</value>
+  </data>
+  <data name="ErrorCode21" xml:space="preserve">
+    <value>Unable to find the supplier configuration.</value>
+  </data>
+  <data name="ErrorCode22" xml:space="preserve">
+    <value>The following supplier configuration details are required in the request: {0}, {1}.</value>
+  </data>
+  <data name="ErrorCode23" xml:space="preserve">
+    <value>The check-in date can only be up to a day prior to the current date.</value>
+  </data>
+  <data name="ErrorCode24" xml:space="preserve">
+    <value>The check-out date must be later than the check-in date.</value>
+  </data>
+  <data name="ErrorCode25" xml:space="preserve">
+    <value>The check-out date cannot be earlier than the check-in date.</value>
+  </data>
+  <data name="ErrorCode26" xml:space="preserve">
+    <value>Multiple hotel search criteria provided in the request. You can search for hotels by providing either the hotelId or the region.</value>
+  </data>
+  <data name="ErrorCode27" xml:space="preserve">
+    <value>The occupancy details are required in the request.</value>
+  </data>
+  <data name="ErrorCode29" xml:space="preserve">
+    <value>The request exceeded the maximum number of rooms that can be booked in a single request. You can book up to {0} rooms in a single request.</value>
+  </data>
+  <data name="ErrorCode30" xml:space="preserve">
+    <value>The request exceeded the maximum number of guests that can occupy a single room. A single room can have up to {0} guests.</value>
+  </data>
+  <data name="ErrorCode31" xml:space="preserve">
+    <value>There must be at least one adult guest type per room.</value>
+  </data>
+  <data name="ErrorCode32" xml:space="preserve">
+    <value>A timeout exception occurred.</value>
+  </data>
+  <data name="ErrorCode33" xml:space="preserve">
+    <value>A supplier exception occurred.</value>
+  </data>
+  <data name="ErrorCode34" xml:space="preserve">
+    <value>An application exception occurred.</value>
+  </data>
+  <data name="ErrorCode35" xml:space="preserve">
+    <value>The stay duration cannot be more than {0} nights.</value>
+  </data>
+  <data name="ErrorCode37" xml:space="preserve">
+    <value>Content not found from the following suppliers: {List|supplierFamily}.</value>
+  </data>
+  <data name="ErrorCode38" xml:space="preserve">
+    <value>Connector metadata not found for the following suppliers: {List|supplier}.</value>
+  </data>
+  <data name="ErrorCode41" xml:space="preserve">
+    <value>Invalid credentials provided in the supplier request.</value>
+  </data>
+  <data name="ErrorCode43" xml:space="preserve">
+    <value>The child age must be between {0} and {1}.</value>
+  </data>
+  <data name="ErrorCode51" xml:space="preserve">
+    <value>The following message headers are required: {0}.</value>
+  </data>
+  <data name="ErrorCode52" xml:space="preserve">
+    <value>An error occurred while processing the request.</value>
+  </data>
+  <data name="ErrorCode53" xml:space="preserve">
+    <value>An error occurred while using the result store.</value>
+  </data>
+  <data name="ErrorCode54" xml:space="preserve">
+    <value>An error occurred while using the session store.</value>
+  </data>
+  <data name="ErrorCode55" xml:space="preserve">
+    <value>The following validation errors occurred: </value>
+  </data>
+  <data name="ErrorCode64" xml:space="preserve">
+    <value>Each room must have at least one occupant.</value>
+  </data>
+  <data name="ErrorCode65" xml:space="preserve">
+    <value>The stay period is required in the request.</value>
+  </data>
+  <data name="ErrorCode69" xml:space="preserve">
+    <value>An error occurred while using the metadata.</value>
+  </data>
+  <data name="ErrorCode70" xml:space="preserve">
+    <value>Unable to parse supplier response.</value>
+  </data>
+  <data name="ErrorCode72" xml:space="preserve">
+    <value>Parsing failed for the following rooms: {List|roomIds}.</value>
+  </data>
+  <data name="ErrorCode73" xml:space="preserve">
+    <value>An error occurred while communicating with the service.</value>
+  </data>
+  <data name="ErrorCode74" xml:space="preserve">
+    <value>An error occurred while communicating with the connector service.</value>
+  </data>
+  <data name="ErrorCode89" xml:space="preserve">
+    <value>The following hotelIds were skipped because they were invalid: {List|hotelIds}.</value>
+  </data>
+  <data name="ErrorCode92" xml:space="preserve">
+    <value>Invalid country code provided in the request.</value>
+  </data>
+  <data name="ErrorCode93" xml:space="preserve">
+    <value>The stay duration must be between {int|durationLowerLimit} and {int|durationUpperLimit} nights.</value>
+  </data>
+  <data name="ErrorCode129" xml:space="preserve">
+    <value>You cannot book more than {0} guests per room.</value>
+  </data>
+  <data name="ErrorCode131" xml:space="preserve">
+    <value>The supplier does not support the {string|culture} culture.</value>
+  </data>
+  <data name="ErrorCode133" xml:space="preserve">
+    <value>The guest information is required for each room in the request.</value>
+  </data>
+  <data name="ErrorCode326" xml:space="preserve">
+    <value>The stay duration must be at least 1 day.</value>
+  </data>
+  <data name="ErrorCode497" xml:space="preserve">
+    <value>Invalid correlation Id provided in the header.</value>
+  </data>
+  <data name="ErrorCode581" xml:space="preserve">
+    <value>MetadataRefreshSettings missing.</value>
+  </data>
+  <data name="ErrorCode620" xml:space="preserve">
+    <value>Unable to process the request due to a supplier side failure.</value>
+  </data>
+  <data name="ErrorCode621" xml:space="preserve">
+    <value>An internal server error occured.</value>
+  </data>
+  <data name="ErrorCode249" xml:space="preserve">
+    <value>The hotelId field is required in the request.</value>
+  </data>
+  <data name="ErrorCode327" xml:space="preserve">
+    <value>Criteria is required in the request.</value>
+  </data>
+  <data name="ErrorCode471" xml:space="preserve">
+    <value>The {0} is required in the request.</value>
+  </data>
+  <data name="ErrorCode479" xml:space="preserve">
+    <value>Invalid hotel ids in request</value>
+  </data>
+  <data name="ErrorCode117" xml:space="preserve">
+    <value>Invalid culture provided in the header.</value>
+  </data>
+  <data name="ErrorCode251" xml:space="preserve">
+    <value>The tenantId field is required in the request.</value>
+  </data>
+  <data name="ErrorCode325" xml:space="preserve">
+    <value>You cannot search for more than {0} rooms in a single call.</value>
+  </data>
+  <data name="ErrorCode447" xml:space="preserve">
+    <value>Invalid search pattern details, either HotelIds, city or radial region should be present in criteria</value>
+  </data>
+  <data name="ErrorCode470" xml:space="preserve">
+    <value>You cannot book more than {0} guests.</value>
+  </data>
+</root>
